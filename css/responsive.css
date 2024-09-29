@@ -1,0 +1,117 @@
+@media (max-width: 1345px) {
+  .left {
+    position: absolute;
+    left: -1125;
+    transition: all 0.3s;
+    z-index: 3;
+    width: 370px;
+    padding: 0;
+  }
+
+  .songinfo,
+  .songtime {
+    width: auto;
+  }
+
+  .left .close {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .timevol {
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .footer a {
+    font-size: 8px;
+    font-weight: 900;
+  }
+
+  .right {
+    width: 100vw;
+  }
+
+  .hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+  }
+
+  .playbar {
+    width: calc(100vw - 100px);
+    font-size: 15px;
+    left: 35px;
+  }
+
+  .seekbar {
+    width: calc(100vw - 100px);
+  }
+
+  .abovebar {
+    margin: 14px 0;
+  }
+
+  .card {
+    width: 33vw;
+    height: 540px;
+  }
+
+  .right {
+    margin: 0;
+  }
+
+  .abovebar {
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+  }
+  /* .play{
+  } */
+
+  .cardContainer {
+    margin: 0;
+    justify-content: center;
+    gap: 20px;
+    height: 50vh;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .right {
+    width: 100vw;
+    right: 10px;
+  }
+
+  .card {
+    width: 70vw;
+    height: 420px;
+  }
+  .cardContainer{
+    height: 55vh;
+  }
+  .buttons {
+    position: relative;
+    right: 20px;
+  }
+  .playbar {
+    width: calc(103vw - 100px);
+    font-size: 15px;
+    left: 35px;
+  }
+
+  .seekbar {
+    width: calc(100vw - 100px);
+  }
+  .play {
+    top: 250px;
+  }
+}

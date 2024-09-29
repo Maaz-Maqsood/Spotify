@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+    font-family: "Roboto";
+}
+
+.border {
+  border: 2px solid red;
+  margin: 3px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.bg-black {
+  background-color: #000000;
+  color: white;
+}
+
+.bg-grey {
+  background-color: #121212;
+  color: white;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.rounded {
+  border-radius: 7px;
+}
+
+.m-1 {
+  margin: 5px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 12px;  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;  /*Dark background for scrollbar track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3a3a3a;  /* Darker color for scrollbar thumb */
+  border-radius: 10px;  /* Rounded corners for the thumb */
+  border: 2px solid #1e1e1e;  /*Gives padding and more style*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;  /* Lighter color on hover */
+}
+
+
